@@ -8,4 +8,5 @@
         Opublikowany {{post.publish}} przez {{post.author}}
     </p>
     {{post.body|linebreaks}}
+    <a href="{% url 'blog:post_list' %}">Powrót</a>
 {% endblock %}
